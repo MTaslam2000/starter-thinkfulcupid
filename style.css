@@ -32,7 +32,7 @@ section.alternate-background {
 }
 
 main img {
-  width: 100px;
+  width: 100%;
 }
 
 /* ---  Groups & Items --- */
@@ -51,7 +51,13 @@ main img {
   flex: 2;
 }
 
+
 /* -------  Navigation ------- */
+
+#menu {
+  display: flex;
+  justify-content: center;
+}
 
 header {
   background-color: #83092e;
