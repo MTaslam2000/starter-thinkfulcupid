@@ -129,3 +129,31 @@ footer p {
 }
 
 /* -------  Media Query ------- */
+@media all and (max-width: 370px) {
+  /* *{
+    background-color: red;
+  } */
+  form label {
+    font-size: 12px;
+  }
+}
+
+@media all and (min-width: 480px) {
+  /* * {
+    background-color: red;
+  } */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #join {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  #join div {
+    width: 100%;
+  }
+}
