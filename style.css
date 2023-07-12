@@ -156,4 +156,32 @@ footer p {
   #join div {
     width: 100%;
   }
+
+  .aboutContent {
+    display:flex;
+    gap: 10px;
+  }
+
+  .aboutContent div {
+    width: 100%;
+    flex: 1;
+  }
+
+  .aboutContent p {
+    flex: 2;
+  }
+
+  #download {
+    display: flex;
+    gap: 15px
+  }
+  
+  #download div {
+    width: 100%;
+  }
+
+  .downloadTxt {
+    display: flex;
+    flex-direction: column;
+  }
 }
