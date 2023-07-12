@@ -184,4 +184,15 @@ footer p {
     display: flex;
     flex-direction: column;
   }
+
+  .blogContentRowTop {
+    display: flex;
+    gap: 10px;
+  }
+  
+
+  .blogContentRowBottom {
+    display: flex;
+    gap: 10px;
+  }
 }
