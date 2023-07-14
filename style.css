@@ -31,7 +31,7 @@ section.alternate-background {
   color: #ecdbc9;
 }
 
-main img {
+img {
   width: 100%;
 }
 
@@ -61,7 +61,7 @@ main img {
 
 header {
   background-color: #83092e;
-  padding: 20px 20px 0 20px;
+  padding: 20px 20px 15px 20px;
   text-align: center;
 }
 
@@ -116,6 +116,10 @@ form button {
   width: 100%;
 }
 
+/* #about {
+  padding: 20px 20px 20px 20px;
+} */
+
 /* -------  Footer ------- */
 
 footer {
@@ -129,6 +133,15 @@ footer p {
 }
 
 /* -------  Media Query ------- */
+@media all and (max-width: 330px) {
+  /* *{
+    background-color: red;
+  } */
+  .logo {
+    font-size: 60px;
+  }
+}
+
 @media all and (max-width: 370px) {
   /* *{
     background-color: red;
@@ -147,37 +160,58 @@ footer p {
     justify-content: space-between;
     align-items: center;
   }
+
+  .logo {
+    font-size: 32px;
+  }
   #join {
     display: flex;
     align-items: center;
     gap: 10px;
   }
 
-  #join div {
-    width: 100%;
+  .joinImgContainer {
+    width: 50%;
   }
+
+  .formContainer {
+    width: 50%;
+  }
+
+  form label {
+    font-size:10px;
+  }
+  form input {
+    width: 50%;
+  }
+  form select {
+    width: 50%;
+  }
+
 
   .aboutContent {
     display:flex;
+    align-items: center;
     gap: 10px;
   }
 
   .aboutContent div {
-    width: 100%;
-    flex: 1;
+    width: 25%;
   }
 
   .aboutContent p {
-    flex: 2;
+    width: 50%;
+    font-size: 12px;
   }
 
   #download {
     display: flex;
+    align-items: center;
     gap: 15px
   }
   
   #download div {
-    width: 100%;
+    width: 50%;
   }
 
   .downloadTxt {
